@@ -18,4 +18,5 @@ public class BMICalculator {
         String result = $(By.name("desk")).getAttribute("value");// изучить getAttribute
         Assert.assertEquals(result, "Your category is Normal");
     }
+
 }
